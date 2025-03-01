@@ -28,7 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Set up Chrome
-      uses: actions/setup-chrome@latest
+      uses: browser-actions/setup-chrome@latest
       with:
         chrome-version: 'latest'    
     - name: Build and run tests with Maven
